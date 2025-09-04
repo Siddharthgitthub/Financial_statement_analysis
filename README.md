@@ -14,7 +14,7 @@ A comprehensive application for analyzing financial statements from PDF reports.
 ## Quick Start
 For a quick start with minimal setup, use the provided run_app.bat script (Windows):   
 
-run_app.bat   
+.\run_app.bat   
 
 This will:  
 1.Create a Python virtual environment (if it doesn't exist)   
