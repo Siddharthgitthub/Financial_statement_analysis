@@ -1,67 +1,67 @@
 A comprehensive application for analyzing financial statements from PDF reports. This application combines a Python backend for PDF parsing and financial analysis with a React frontend for data visualization and exploration.
 
-Features
+#Features
 PDF Parsing: Extract financial data from annual reports and financial statements
 Financial Analysis: Analyze income statements, balance sheets, and cash flow statements
 Data Visualization: Visualize financial trends and key metrics
 QA Checks: Automatic quality assurance checks on financial data
 Semantic Search: Search through financial notes and MD&A sections
-System Requirements
+#System Requirements
 Python 3.10+
 Node.js 18+
 Windows, macOS, or Linux
-Quick Start
+#Quick Start
 For a quick start with minimal setup, use the provided run_app.bat script (Windows):
 
-run_app.bat
+run_app.bat//
 This will:
 
-Create a Python virtual environment (if it doesn't exist)
+#Create a Python virtual environment (if it doesn't exist)
 Install all Python dependencies
 Install all Node.js dependencies
 Start the backend server
 Start the frontend development server
 Once started, navigate to http://localhost:3000 in your web browser.
 
-Step by Step Installation
+#Step by Step Installation
 If you prefer to install and run the application manually, follow these steps:
 
-Backend Setup
+#Backend Setup
 Clone the repository:
 
 git clone https://github.com/your-username/Financial_statement_analysis.git
 cd Financial_statement_analysis
-Create a virtual environment:
+#Create a virtual environment:
 
 python -m venv venv
-Activate the virtual environment:
+#Activate the virtual environment:
 
 Windows:
 venv\Scripts\activate
 macOS/Linux:
 source venv/bin/activate
-Install Python dependencies:
+#Install Python dependencies:
 
 pip install -r npnonlyf/requirements.txt
-Frontend Setup
-Navigate to the client directory:
+##Frontend Setup
+#Navigate to the client directory:
 
 cd client
-Install Node.js dependencies:
+#Install Node.js dependencies:
 
 npm install
-Running the Application
-Start the Backend Server
+##Running the Application
+#Start the Backend Server
 python server.py
 The backend server will run at http://localhost:5000.
 
-Start the Frontend Server
+#Start the Frontend Server
 In a new terminal, navigate to the client directory and run:
 
 npm run dev
 The frontend will be available at http://localhost:3000.
 
-Using the Application
+#Using the Application
 1. Upload a Financial Statement PDF
 Click on the "Upload" button on the dashboard
 Select a financial statement PDF (annual report, 10-K filing, etc.)
